@@ -50,7 +50,7 @@ function handleGuess(correctSpot, userGuess) {
     if (correctSpot === userGuess) {
         correctGuesses++;
     }
-    resetStyles()
+    resetStyles();
     if (correctSpot === 'tree'){
         treeContainer.classList.add('face');
     }
